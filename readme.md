@@ -6,6 +6,10 @@
 # 初始安装
 
 ```bash
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+
+ nvim +'hi NormalFloat guibg=#1e222a' +PackerSync  
+  
   git clone https://github.com.cnpmjs.org/NvChad/NvChad ~/.config/nvim --depth 1
   nvim +'hi NormalFloat guibg=#1e222a' +PackerSync
 
